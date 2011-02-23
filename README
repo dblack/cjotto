@@ -1,0 +1,17 @@
+Jotto in C
+
+This is a C implementation of the word game Jotto. 
+
+To play:
+
+  make
+  ./jotto
+
+You guess the computer's 5-letter word; it guesses yours. You
+response to its guesses by telling it how many hits it has, where
+a "hit" is an exact, positional match between letters.
+
+For example, if your word is mouse and the computer guesses manse,
+that's three hits. 
+
+Not much more to it. 
